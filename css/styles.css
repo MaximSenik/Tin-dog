@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+/* sections */
+.colored-sections{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-sections{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    text-align: right;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 15px 0 15px;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+/* Title */
+#title {
+    text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+.title-img {
+    width: 15%;
+    transform: rotate(25deg);
+    padding-top: 2rem;
+    position: absolute;
+    right: 25%;
+}
+
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        width: 45%;
+        transform: rotate(0deg);
+        position: static;
+    }
+}
+
+/* Buttons */
+.dwn-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Features section */
+#features {
+    position: relative;
+    background-color: #fff;
+}
+
+@media (max-width:1000px) {
+    #features {
+        position: static;
+    }
+}
+
+.orange-ico {
+
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.orange-ico:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+/* <!-- Testimonials --> */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+    color: #fff;
+}
+
+/* Footer */
+
+.footer-ico {
+    padding: 1%;
+}
